@@ -71,7 +71,7 @@ Warnings **escalate immediately** but **de-escalate only after 5 consistent cycl
 ```bash
 # Flash arduino/ultrasonic_bridge/ultrasonic_bridge.ino with the Arduino IDE first
 # The repo root is itself a colcon workspace (packages live in src/)
-git clone https://github.com/<your-username>/mini-adas-ros2.git ~/mini-adas-ros2
+git clone https://github.com/amheidly-spec/mini-adas-ros2.git ~/mini-adas-ros2
 cd ~/mini-adas-ros2
 colcon build --symlink-install
 source install/setup.bash
