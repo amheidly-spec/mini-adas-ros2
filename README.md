@@ -2,7 +2,7 @@
 
 A small-scale forward collision warning (FCW) system built on **ROS2 Humble**, running on a Raspberry Pi 4. It fuses a **camera** (person detection with a MobileNet-SSD neural network) with an **ultrasonic range sensor** (distance) and drives a physical **LED + buzzer** alert through an Arduino, following the same sense → perceive → decide → act loop used in automotive ADAS.
 
-![demo](docs/demo.gif)
+   **▶ Demo videos:** [Clip 1](https://youtube.com/shorts/BEwLb6hQtQA) · [Clip 2](https://youtube.com/shorts/PbLTWqX89R8)
 
 ## Why two sensors
 
