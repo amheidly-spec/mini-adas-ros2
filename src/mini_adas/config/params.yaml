@@ -1,0 +1,26 @@
+arduino_bridge_node:
+  ros__parameters:
+    port: /dev/ttyACM0      # check with: ls /dev/ttyACM* /dev/ttyUSB*
+    baud: 115200
+
+camera_node:
+  ros__parameters:
+    device: 0               # /dev/video0
+    width: 320
+    height: 240
+    fps: 15.0
+
+detection_node:
+  ros__parameters:
+    max_rate_hz: 5.0
+    zone_width_frac: 0.5
+    min_confidence: 0.5
+
+fusion_node:
+  ros__parameters:
+    brake_m: 0.30
+    caution_m: 0.80
+    stale_s: 0.5
+    camera_stale_s: 1.0
+    rate_hz: 20.0
+    release_cycles: 5
